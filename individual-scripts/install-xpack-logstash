@@ -1,0 +1,6 @@
+#!/bin/sh
+# Script to install X-Pack plugin for Logstash
+cd /logstash-5.4.2/bin
+echo "Installing X-Pack plugin for Logstash..."
+./logstash-plugin install x-pack
+echo "X-Pack is installed for Logstash."
